@@ -1,0 +1,123 @@
+/*This is used for styling of the webpage. */
+
+
+
+/* ===== CSS Variables ===== */
+:root {
+  --text: #040308;
+  --background: #f2f0fa;
+  --primary: #6442bf;
+  --secondary: #db95d3;
+  --accent: #cc6aac;
+}
+
+/* ===== Global Reset ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* ===== Navigation ===== */
+nav {
+  background-color: var(--secondary);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+/* ===== Main Content ===== */
+main {
+  padding: 2rem 4rem;
+}
+
+/* ===== Tables ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid var(--primary);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: flex-start; 
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column; 
+  width: 550px;           
+  gap: 0.75rem;           
+  text-align: left;       
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.2rem;
+}
+
+#submit {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+#submit:hover {
+  background-color: var(--accent);
+}
