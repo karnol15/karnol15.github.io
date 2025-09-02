@@ -121,3 +121,55 @@ form input, form textarea {
 #submit:hover {
   background-color: var(--accent);
 }
+
+
+.demo-container {
+  display: flex;
+  gap: 2rem; 
+  align-items: flex-start; 
+  margin-top: 1rem;
+}
+
+.demo-text {
+  flex: 1; 
+}
+
+.demo-video {
+  flex-shrink: 0; 
+}
+
+
+.skills-demo-container {
+  display: flex;
+  gap: 2rem; 
+  align-items: flex-start;
+}
+
+.skills-info {
+  flex: 1; 
+}
+
+.skills-video {
+  flex: 0 0 400px;
+}
+
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start; 
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 0 0 300px; 
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px; 
+}
